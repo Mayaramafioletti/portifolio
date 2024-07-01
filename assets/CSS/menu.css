@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+#sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2E2836;
+    box-shadow: rgba(88, 45, 168, 0.35) 20px -1px 20px 0px;
+    color: #F9F5FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+}
+
+.profile {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 130px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.profile-img {
+    max-width: 100%;
+    margin: 16px 0 16px 0;
+}
+
+.status {
+    display: inline-block;
+    padding: 5px 30px;
+    font-size: 13px;
+    background-color: green;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.menu {
+    width: 80%;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #F9F5FB;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+.menu-item i {
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+.menu-item:hover {
+    background-color: rgba(88, 45, 168, 0.35);
+    border-radius: 5px;
+}
+
+.social {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.social a {
+    color: #F9F5FB;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+main.content {
+    flex-grow: 1;
+    padding: 20px;
+}

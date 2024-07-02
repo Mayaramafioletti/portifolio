@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
     margin: 0;
 }
 
@@ -9,7 +8,7 @@ body {
 }
 
 #sidebar {
-    width: 250px;
+    width: 256px;
     height: 100vh;
     background-color: #2E2836;
     box-shadow: rgba(88, 45, 168, 0.35) 20px -1px 20px 0px;
@@ -92,5 +91,4 @@ h4 {
 
 main.content {
     flex-grow: 1;
-    padding: 20px;
 }

@@ -1,0 +1,36 @@
+h1 {
+    margin: 16px 0;
+}
+.main {
+    margin-left: 72px;
+    margin-top: 56px;
+}
+.wrapper {
+    background-color: none;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    overflow-x: hidden;
+    width: calc(100% - 80px);
+    position: relative;
+
+}
+.wrapper-inner {
+    display: flex;
+    width: max-content;
+    animation: animafaixa 10s linear infinite; 
+}
+.wrapper-img {
+    height: 30px;
+    margin-right: 8px;
+    white-space: nowrap;
+}
+
+
+@keyframes animafaixa {
+    0% {
+        transform: translateX(0%);
+    } 100% {
+        transform: translate(-100%);
+    }
+}

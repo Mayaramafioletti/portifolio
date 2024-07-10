@@ -1,9 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-  fetch("/home.html")
-    .then((response) => response.text())
-    .then((data) => {
-      document.getElementById("home-container").innerHTML = data;
-      const tecnologiasContainer = document.getElementById("tecnologias");
+const tecnologiasContainer = document.getElementById("tecnologias");
       const imagens = [
         { src: "/assets/images/angular.png", alt: "Angular" },
         { src: "/assets/images/figma.png", alt: "Figma" },
@@ -33,7 +28,5 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       tecnologiasContainer.appendChild(wrapperInner);
-      });
-    });
 
 

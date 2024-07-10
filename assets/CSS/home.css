@@ -4,6 +4,7 @@ h1 {
 .main {
     margin-left: 72px;
     margin-top: 56px;
+    flex-grow: 1;
 }
 .wrapper {
     background-color: none;

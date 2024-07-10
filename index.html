@@ -1,18 +1,204 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/assets/CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="/assets/CSS/home.css" type="text/css">
+    <link rel="stylesheet" href="/assets/CSS/card.css" type="text/css">
+    <link rel="stylesheet" href="/assets/CSS/contact.css" type="text/css">
+    <link rel="stylesheet" href="/assets/CSS/projects.css" type="text/css">
+
     <title>Home - Meu Portfólio</title>
 </head>
+
 <body>
-    <div>
-        <div id="menu-container"></div>
+    <div class="container">
+        <aside id="sidebar">
+            <div class="profile">
+                <span class="status">Disponível</span>
+                <img src="/assets/images/mayara.png" alt="Foto de perfil" class="profile-img">
+                <h4>Mayara C Mafioletti</h4>
+            </div>
+            <nav class="menu">
+                <a content-id="home" class="menu-item"><i class="fas fa-home"></i> Início</a>
+                <a content-id="projects" class="menu-item active"><i class="fa fa-folder"></i> Projetos</a>
+                <a content-id="about" class="menu-item"><i class="fa fa-user"></i> Sobre</a>
+                <a content-id="cv" class="menu-item"><i class="fas fa-file-alt"></i> Currículo</a>
+                <a content-id="contact" class="menu-item"><i class="fas fa-envelope"></i> Contato</a>
+            </nav>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/mayara-mafioletti/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/mayaramafioletti"><i class="fab fa-github"></i></a>
+                <a href="mailto:mayaramafioletti@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </aside>
+        <main >
+            <div class="content" id="home">
+                <div class="main">
+                    <h1>Desenvolvedora Front End</h1>
+                    <h1>UX/UI Design</h1>
+                </div>
+                <div class="wrapper" id="tecnologias">
+                </div>
+
+                <div class="cards">
+                    <div class="cards-container">
+                        <!-- Card 1 -->
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-title">Framework de domínio</h3>
+                                <p class="card-description">Angular</p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-title">Atualmente estudando</h3>
+                                <p class="card-description">UX/UI</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-title">Último projeto</h3>
+                                <p class="card-description">Portifólio</p>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-description">3 anos</h3>
+                                <p class="card-title">de experiência</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card about">
+                        <div class="card-content">
+                            <h3 class="card-description">Sobre mim</h3>
+                            <p class="card-title">Sou Mayara, desenvolvedora front end com dominio em Angular. Estudo
+                                Engenharia da Computação na FIAP. Além da programação, tenho interesse em UX/UI, área em
+                                que
+                                estou
+                                focando meus estudos. Valorizo sinceridade e comunicação clara para construir
+                                relacionamentos
+                                sólidos e obter resultados de qualidade.</p>
+                            <a href="#" class="card-link">Saiba mais ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="projects">
+                <div class="filter">
+                    <button class="btn-filter">Todos</button>
+                    <button class="btn-filter">Front-End</button>
+                    <button class="btn-filter">UX/UI</button>
+                </div>
+                <div class="cards">
+                    <div class="cards-container">
+                        <!-- Card 1 -->
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-title">Framework de domínio</h3>
+                                <p class="card-description">Angular</p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-title">Atualmente estudando</h3>
+                                <p class="card-description">UX/UI</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-title">Último projeto</h3>
+                                <p class="card-description">Portifólio</p>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="card">
+                            <div class="card-content">
+                                <h3 class="card-description">3 anos</h3>
+                                <p class="card-title">de experiência</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="contact-container content">
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="fab fa-linkedin"></i>
+                                <p>LinkedIn</p>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-back-content">
+                                    <i class="fab fa-linkedin"></i>
+                                    <a href="https://www.linkedin.com/in/mayara-mafioletti/" target="_blank">LinkedIn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="fab fa-github"></i>
+                                <p>Github</p>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-back-content">
+                                    <i class="fab fa-github"></i>
+                                    <a href="https://github.com/mayaramafioletti" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="fas fa-envelope"></i>
+                                <p>Email</p>
+                            </div>
+                            <div class="card-back">
+                                <div class="card-back-content">
+                                    <i class="fas fa-envelope"></i>
+                                    <a href="mailto:mayaramafioletti@gmail.com">Email</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="contact-form">
+                    <div class="contact">
+                        <h2>Deixe sua opinião</h2>
+                        <p>Sua opinião é fundamental para mim. Por favor, compartilhe seus pensamentos e sugestões. Estou ansioso
+                            para ouvir o que você tem a dizer e usar seu feedback para crescer e melhorar.</p>
+                        <textarea placeholder="Digite sua opinião aqui..."></textarea>
+                        <button>Enviar</button>
+                    </div>
+                    <div class="thank-you">
+                        <h2>Obrigada!</h2>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
 
     </div>
-    <script src="./assets/js/menu.js"></script>
-    <script src="./assets/js/home.js"></script>
 
-    
+    <script src="./assets/js/script.js"></script>
+
+
+
+
 </body>

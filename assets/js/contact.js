@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('assets/components/menu.html')
+    fetch('/contact.html')
         .then(response => response.text())
         .then(data => {
-            document.getElementById('menu-container').innerHTML = data;
+            document.getElementById('contact-container').innerHTML = data;
         });
 });
